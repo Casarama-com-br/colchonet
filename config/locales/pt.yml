@@ -1,0 +1,30 @@
+pt:
+  users:
+    new:
+      title: Cadastro
+  links:
+    back: Voltar
+  edit:
+    title: Editar Perfil
+  show:
+    title: "Perfil: %{user_name}"
+    edit: 'Editar Perfil'
+    location: "Localização: %{location}"
+    bio: "Bio: %{bio}"
+    
+  activerecord:
+    models:
+      user: Usuário
+      room: Quarto
+    attributes:
+      user:
+        bio: Biografia
+        email: Email
+        full_name: Nome Completo
+        location: Localização
+        password: Senha
+        password_confirmation: Confirme a senha
+      room:
+        description: Descrição
+        location: Localização
+        title: Título
